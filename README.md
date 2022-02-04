@@ -1,2 +1,2 @@
 # byro-webapp
-party invitation platform
+invitation platform

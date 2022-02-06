@@ -1,0 +1,26 @@
+{
+  "name": "byro-webapp",
+  "version": "1.0.0",
+  "description": "invitation platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byro-dev/byro-webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byro-dev/byro-webapp/issues"
+  },
+  "homepage": "https://github.com/byro-dev/byro-webapp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0"
+  }
+}

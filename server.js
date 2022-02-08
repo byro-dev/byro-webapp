@@ -1,16 +1,8 @@
 require("dotenv").config();
 const express = require("express");
-const mongoose = require("mongoose");
+const connectDB = require("./config/db");
 
-// connect to database
-const MONGOURI = process.env.MONGOURI;
-mongoose.connect(MONGOURI);
-mongoose.connection.on("connected", () => {
-  console.log("conneted db");
-});
-mongoose.connection.on("error", (err) => {
-  console.log("err connecting to db", err);
-});
+connectDB();
 
 const app = express();
 
